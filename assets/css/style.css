@@ -535,3 +535,123 @@ a {
   border: 1.5px solid #ff5d31;
   border-radius: 99px;
 }
+
+/* Service */
+.service {
+  margin-top: 185px;
+  padding: 68px 0 100px;
+  background: #fff6ed;
+}
+
+.service__top {
+  text-align: center;
+}
+
+.service__desc {
+  margin-bottom: 15px;
+}
+
+.service__body {
+  padding-top: 47px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 71px;
+}
+
+.service-item {
+  padding: 30px 28px;
+  border-radius: 10px;
+  width: 294px;
+  border: 2px solid rgba(255, 188, 122, 0.26);
+  background: #fff;
+}
+
+.service-item + .service-item {
+  margin-top: 24px;
+}
+
+.service-item__heading {
+  padding-left: 12px;
+  position: relative;
+  color: var(--primary-color);
+  font-family: Sora, sans-serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.service-item__heading::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 22px;
+  border-radius: 1px;
+  background: linear-gradient(90deg, #ff5b2e 0.39%, #ffa187 100.29%);
+}
+
+.service-item__desc {
+  margin-top: 18px;
+  width: 244px;
+  margin-bottom: 24px;
+  color: #656689;
+  font-size: 1.4rem;
+  line-height: 1.71;
+}
+
+.service-item__more {
+  display: inline-flex;
+  column-gap: 6px;
+  align-items: center;
+  color: #34396a;
+  font-family: Sora;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.service-item__more::after {
+  content: url(../icons/arrow-up-right.svg);
+}
+
+.service__media {
+  margin-top: 17px;
+  position: relative;
+}
+
+.service__media::after {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 350px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #9df1fb 0%, #73d0db 108.14%);
+}
+
+.service__img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: block;
+}
+
+.service__cta-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.service__cta {
+  margin-top: 45px;
+  width: 214px;
+  border-radius: 31px;
+  border: 1px solid rgba(255, 91, 46, 0.6);
+  box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+  color: #ff5b2e;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+}
