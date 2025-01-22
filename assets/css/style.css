@@ -52,9 +52,9 @@ a {
 }
 
 .btn--primary {
-  background-color: #ff5b2e !important;
-  border-color: #ff5b2e !important;
-  color: #fff !important;
+  background-color: #ff5b2e;
+  border-color: #ff5b2e;
+  color: #fff;
 }
 
 .section-label {
@@ -923,4 +923,14 @@ a {
   color: #656689;
   font-size: 1.4rem;
   line-height: 1;
+}
+
+.pricing-item:hover {
+  cursor: pointer;
+  box-shadow: 0px 20px 44px 0px rgba(195, 108, 22, 0.06);
+}
+
+.pricing-item__btn:hover {
+  background: #ff5b2e;
+  color: #fff;
 }
