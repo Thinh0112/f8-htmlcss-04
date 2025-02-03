@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14" height="14">
+	<title>footer-facebook</title>
+	<style>
+		.s0 { fill: #ffffff } 
+		.s1 { fill: none;stroke: #ffffff } 
+		.s2 { opacity: .7;fill: #000958 } 
+	</style>
+	<g>
+		<path fill-rule="evenodd" class="s0" d="m7 23c-8.8 0-16-7.2-16-16 0-8.8 7.2-16 16-16 8.8 0 16 7.2 16 16 0 8.8-7.2 16-16 16z"/>
+		<path fill-rule="evenodd" class="s1" d="m7 22.5c-8.6 0-15.5-6.9-15.5-15.5 0-8.6 6.9-15.5 15.5-15.5 8.6 0 15.5 6.9 15.5 15.5 0 8.6-6.9 15.5-15.5 15.5z"/>
+	</g>
+	<path class="s2" d="m12.4 0h-10.8c-0.9 0-1.6 0.7-1.6 1.6v10.8c0 0.9 0.7 1.6 1.6 1.6h5.4v-5.4h-1.6v-2h1.6v-1.6c0-1.6 0.9-2.8 2.9-2.8h1.4v2h-0.9c-0.8 0-1.1 0.6-1.1 1.1v1.3h2l-0.4 2h-1.6v5.4h3.1c0.9 0 1.6-0.7 1.6-1.6v-10.8c0-0.9-0.7-1.6-1.6-1.6z"/>
+</svg>
